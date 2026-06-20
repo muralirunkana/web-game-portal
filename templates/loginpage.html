@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginpage</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body id="body">
+    <div id="div1">
+        <div id="div2"> 
+            {% if msg %}
+            <h2 style="color: red;">{{msg}}</h2>
+               {% endif %}
+            <div id="div3"><div>LOGIN HERE</div></div>
+            
+            <div id="div4">
+                
+            <form action="{{url_for('loginsuccessful')}}" method="POST" autocomplete="off">
+              
+                <label for="firstname" >UserName: </label>
+                <input type="text" id="firstname" class="input" name="username" autocomplete="off"><br><br>
+               
+               <div id="pass"> <label for="password" >password:</label>
+                <input type="password" id="password" class="input" name="password" autocomplete="new-password">
+                </div><br><br><br>
+                <div id="sub"><button>submit</button></div>
+            </form>
+            </div>
+
+            <div id="div5">
+                if dont'have an account register here?<a href="{{url_for('signup')}}" class="btn">signup</a>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

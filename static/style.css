@@ -1,0 +1,141 @@
+#body{
+    background-image:url('login_page_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#div1{
+    height: 500px;
+    width: 420px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#div2{
+    height: 300px;
+    width:300px;
+    
+    text-align: center;
+}
+#div3{
+    background-color:aqua;
+    margin-top: 30px;
+    color:black;
+    height:35px;
+    width:120px;
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#div4{
+    margin-left:-50px;
+    font-size: 17px;
+    margin-top: 40px;
+    width: 300px;
+    padding:20px; 
+}
+#div5{
+  
+    width:350px;
+    margin-left:-10px;
+    margin-top:-10px;
+}
+#pass{
+    margin-left:10px;
+}
+#sub{
+    margin-top: -10px;
+    margin-left:50px;
+}
+.input{
+    padding:4px;
+}
+#log
+{
+    margin-top: 30px;
+}
+.forget{
+
+}
+button{
+    background-color: green;
+    width: 80px;
+    height:40px;
+    border-radius: 10px;
+}
+.btn{
+     
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+#rdiv2{
+    background-color:aqua;
+    margin-top:-220px;
+    height: 35px;
+    width:190px;
+    text-align: center;   
+}
+#rdiv3{
+    margin-top: 8px;
+    
+}
+#rdiv4{
+    
+    height:140px;
+    width:300px;
+    margin-top: 80px;
+    margin-left: -100px;
+}
+.form-row{
+    display:flex;
+    align-items:center;
+    margin:15px;
+}
+
+.form-row label{
+    width:100px;
+}
+#gamebody{
+    background-image:url(innergamepg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#roc{
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:300px
+    
+}
+#rockimage{
+    border-radius: 100px;
+    border: 5px solid black;
+}
+#roc1{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+#tic-image{
+    width: 490px;
+    height: 350px;
+    border: 5px solid black;
+    border-radius:100px;
+   
+}
+#roc2{
+    margin-left: 1000px;
+    margin-top:100px;   
+}

@@ -1,0 +1,91 @@
+body{
+    background-image:url("backgroundimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#header{
+    text-align: center;
+}
+h1{
+    /* text-align:center; */
+    display: inline-block; 
+    padding:5px 15px;
+    color:black;
+    font-size:50px;
+    background-color: bisque;
+}
+#pos{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin-top: 70px;
+    
+}
+.count1{
+
+    /* display:inline-block; */
+    background-color:aquamarine;
+    padding:20px 20px;
+    font-size: 60px;
+}
+.count2{
+
+    /* display:inline-block; */
+    background-color:aquamarine;
+    padding:20px 20px;
+    font-size: 60px;
+}
+#you{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 10px;
+}
+#exit{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+#exit button{
+    width: fit-content;
+    cursor:pointer;
+    background-color: red;
+    padding: 10px;
+}
+
+#container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.box{
+    font-size: 90px;
+    padding: 70px;
+    border-radius: 70px;
+    background-color: aqua;
+}
+.box:hover{
+    background-color: cadetblue;}
+.task{
+    font-size: 40px;
+}
+#Reset{
+    background-color: green;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 780px;
+    
+}
+@keyframes blink{
+    0%{background-color: yellowgreen;}
+    50%{background-color:  transparent}
+    100%{background-color: yellowgreen;}
+}
+.blink{
+    animation: blink 0.4s ease-in-out 2;
+}
